@@ -7,6 +7,10 @@ Tools & Technologies Used - Power BI - Dashboard creation, Dax measures, visuali
 SQL & Excel for Data cleaning, and preparation
 Power Query for Data Transformation
 
+The dataset was modeled into a Star Schema to support efficient reporting and analytics in Power BI.
+FactSales is the central transaction table.
+Dimension Tables (Customer, Product, Date) provide descriptive attributes for slicing and dicing. Enables calculations such as: YOY Sales Growth, Customer Retention, Segment-wise Profit
+
 Dashboard Insights
 Total Sales: $0.50M with YOY decline of –6%  
 Customer Retention: ~95%, showing a strong base of repeat customers  
